@@ -18,8 +18,8 @@ Both these API versions are configurable through the configuration file availabl
 
 ## Steps to run the tool.
 1. Enable Basic Authentication in Publisher API - The tool is configured to use basic authentication when getting API information via the Publisher REST API. The Publisher REST API by default is configured to work with OAuth hence we need to change AuthenticationInterceptor to work with Basic Authentication. This can be done by editting the following file <br />
-  <API-M Home>\repository\deployment\server\webapps\api#am#publisher#v0.9\WEB-INF\beans.xml <br />
-Comment the OAuthAuthenticationInterceptor and enable BasicAuthenicationInterceptor <br />
+  {API-M Home}\repository\deployment\server\webapps\api#am#publisher#v0.9\WEB-INF\beans.xml <br />
+Comment the `OAuthAuthenticationInterceptor` and enable `BasicAuthenicationInterceptor` in the above file <br />
 
 2. Edit Configuration - Open the config.properties file and change the configuration based on your own setup. Keep the Publisher API and Export/Import API as it is if you are not sure on which version to use. <br/>
 2. Build the project - Build the project by running `mvn clean package`.
