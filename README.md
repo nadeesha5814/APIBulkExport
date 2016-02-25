@@ -1,6 +1,6 @@
 # API Bulk Exporter for WSO2 API Manager
 
-## What does this tool?
+## What does this tool do?
 API Bulk Exporter allows you to export all the API's available in a WSO2 API Manager deployment. The API's are exported as .zip files and are indivdually archived. 
 
 ## Prerequisites
@@ -14,8 +14,7 @@ The tool consumes two API's exposed by the WSO2 API Manager.<br />
 1. Publisher API - Version 0.9 <br />
 2. Export/Import API - Version 1.0.1
 
-
-Both API versions are configurable through the properties file available in the project (.
+Both these API versions are configurable through the configuration file available in the project.
 
 ## Steps to run the tool.
 1. Edit Configuration - Open the config.properties file and change the configuration based on your own setup. Keep the Publisher API and Export/Import API as it is if you are not sure on which version to use. <br/>
