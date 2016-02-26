@@ -30,3 +30,5 @@ Comment the `OAuthAuthenticationInterceptor` and enable `BasicAuthenicationInter
  
 
 
+https://nadeesha678.wordpress.com/2016/02/25/bulk-exporting-of-apis-in-wso2-api-manager/
+
